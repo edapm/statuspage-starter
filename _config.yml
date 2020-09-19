@@ -42,16 +42,17 @@ fa-code: "c02bf44fa3" # code for font awesome
 
 site-list:
   links:
-    - label: "Main" # Name of your website
-      url: "https://forgenst.com" # Website URL
-      text: "Main Website" # Optional description
-      custom-args: "&color=white&down_color=lightgrey&down_message=offline&label=forgenst.com&logo=firebase&logoColor=orange&style=for-the-badge&up_color=blue&up_message=online" # Optional Shields.io Badge overrides (see https://shields.io for details, all parameters shown in this example)
-    - label: "Portfolio"
-      url: "https://eapm.forgenst.com"
-      text: "Portfolio, hosted on Firebase"
+    - label: "GitHub" # Name of your website
+      url: "https://github.com" # Website URL
+      text: "Source Code Hosting" # Optional description
+      custom-args: "&color=white&down_color=lightgrey&down_message=offline&label=github.com&logo=github&logoColor=grey&style=for-the-badge&up_color=blue&up_message=online" # Optional Shields.io Badge overrides (see https://shields.io for details, all parameters shown in this example)
+    - label: "Atom"
+      url: "https://atom.io"
+      custom-args: "&logo=atom"
+      text: "Text Editor"
     - label: "Blog"
-      url: "https://blog.forgenst.com"
-      text: "Blog, hosted on GitHub Pages"
+      url: "https://github.blog"
+      text: "GitHub Blog"
 
 social:
   links:
